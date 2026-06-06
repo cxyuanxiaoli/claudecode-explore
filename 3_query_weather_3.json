@@ -1,0 +1,54 @@
+{
+  "model": "claude-opus-4-8",
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Perform a web search for the query: 北京天气 2026年6月6日 今天"
+        }
+      ]
+    }
+  ],
+  "system": [
+    {
+      "type": "text",
+      "text": "x-anthropic-billing-header: cc_version=2.1.167.252; cc_entrypoint=cli; cch=e7d05;"
+    },
+    {
+      "type": "text",
+      "text": "You are Claude Code, Anthropic's official CLI for Claude."
+    },
+    {
+      "type": "text",
+      "text": "You are an assistant for performing a web search tool use"
+    }
+  ],
+  "tools": [
+    {
+      "type": "web_search_20250305",
+      "name": "web_search",
+      "max_uses": 8
+    }
+  ],
+  "metadata": {
+    "user_id": "{\"device_id\":\"4a6527115225e9f8ffb8861510eea11fae490d52f0f7e0f48c7d212d1dc20b20\",\"account_uuid\":\"\",\"session_id\":\"e882105a-c40c-4270-b5d4-9d5e1db8f257\"}"
+  },
+  "max_tokens": 64000,
+  "thinking": {
+    "type": "adaptive"
+  },
+  "context_management": {
+    "edits": [
+      {
+        "type": "clear_thinking_20251015",
+        "keep": "all"
+      }
+    ]
+  },
+  "output_config": {
+    "effort": "high"
+  },
+  "stream": true
+}

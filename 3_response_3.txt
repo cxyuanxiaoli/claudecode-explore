@@ -1,0 +1,1098 @@
+event: message_start
+data: {"type":"message_start","message":{"id":"f44d1775-d7cb-4e91-b66e-83ddee46146f","type":"message","role":"assistant","model":"deepseek-v4-pro","content":[],"stop_reason":null,"stop_sequence":null,"usage":{"input_tokens":305,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"output_tokens":0,"service_tier":"standard"}}}
+
+event: content_block_start
+data: {"type":"content_block_start","index":0,"content_block":{"type":"thinking","thinking":"","signature":""}}
+
+event: ping
+data: {"type":"ping"}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":"The"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" user"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" is"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" asking"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" me"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" to"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" search"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" for"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" the"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" weather"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" in"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" Beijing"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" on"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" June"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":"6"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":","}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":"202"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":"6"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":"."}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" Let"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" me"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" perform"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" this"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":" search"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":"."}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"signature_delta","signature":"f44d1775-d7cb-4e91-b66e-83ddee46146f"}}
+
+event: content_block_stop
+data: {"type":"content_block_stop","index":0}
+
+event: content_block_start
+data: {"type":"content_block_start","index":1,"content_block":{"type":"server_tool_use","id":"call_00_XU1Iy106EZO7tzLByUMv5903","name":"web_search","input":{},"caller":{"type":"direct"}}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"{"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"\""}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"query"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"\""}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":": "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"\""}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"北京"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"天气"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"202"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"6"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"年"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"6"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"月"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"6"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"日"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"\""}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"}"}}
+
+event: content_block_stop
+data: {"type":"content_block_stop","index":1}
+
+event: content_block_start
+data: {"type":"content_block_start","index":2,"content_block":{"type":"web_search_tool_result","tool_use_id":"call_00_XU1Iy106EZO7tzLByUMv5903","content":[{"type":"web_search_result","title":"北京-天气预报","url":"https://www.nmc.cn/publish/forecast/ABJ/beijing.html","encrypted_content":"MIRYAaqcbb2MQnygAvraw707rChnV8EMTwTuy1+t6WKPZUeSUkdFEQwKhJEGJ7C99NY9/1/hMQmSb/VTxI50bY7XaS29b18qkOKebJxzoplxrVVEQUehPumNzSvyZieM0bkWewOIwcZA2oTpKM+KHIZtOC4UCEylk8CL7C1V3sMDttlxq2j4wcQpWS8UZij+Cx4hFgSABmIDN/3+65jd+BQ+MjbNTMSfNersDHSxX+EcNzFI/0HbJwpj/6+oUQqVw0vOqNzvoQzzDLbYyq+Hh9olxoOf7ytbWIiulMihuGGzkLY85eAYPBmEEeEu+GQqym2WlQoannYj/jwY69RDg9NQcheUJK7InkqU3U7Tjw5McnmFA1xc/DLRK9PydHokPZvwLSpc8XvFZeHmFF4lYJWC270=","page_age":null},{"type":"web_search_result","title":"今日降雨添凉意，明后天分散雷雨常出没","url":"http://rss2.bjd.com.cn/content/s6a239befe4b03fa51a7f66ce.html","encrypted_content":"hrAzdtixRbLqI40oz/KdEHN+sJTdGk1VSivKloMgYRjFZSxQW+SA0DgaeqwnTScVrU6DsQ28/zUCQhJDWMGkRsTHwQOnlcHKzZKVULpC0c09o3CWhNJIUw7SGz17ytsMd+n2c+0pcfped6vyIDKlaCvQxCUWqzbcvQSiF2fDVKYH+xNsEf7xwrymp7+jM+qmI/HSnxTdWR3nB2mKPVpEGSb7bW3DFVT1eIj6wiaDh9TVHF+l3skVlC5llR6SIktjJXhv+L9tMwDIdwlplaZhz87qTWE/xswApFD//RrKJKPN28LqDRTIBChOFq2BQQA5nKP7ddTBu2XZwVPUSnFfzevIp6Ua/2qvYTY646DM8XT6EvwjplIV/j4oqGCMSUfvWQdWnlCWHs1Vo9f2B6d4l8BJ/IJhYMROuVZs4kVpCu+ZqwEmJcRpQGGL957OFaU3TngJY8nI9pitgeqyefMS6JDe7rMQvKWCZkiqrCRWjmab+m1awyP71tSRT+vProbby4VMHndPfZSQd7rpsk45mZZhqssEo7jH/6DlxUxrfa/B/d8CM2kasdd2DlHBKiTqu0T5+vm1jKijLUMOWKyz7CbZWwYpBv4nOBc5Hk7rShJMsr4yRYnNzNM4VGNDK3XCfBNm1voouhl/k/ZWavJqCbd6z9FK73PxwcUqPAdZ3OdqCrU3od1+YnBK6fpqxVtW5P27qRC74yqaAcfwa+sSzr4W7WBIbxb8BBF/zJgcdP+2ohLv65IfijMVLokWvLJFZbHXbpMehgarRIGHG5zCx9gOqTVVXPfXQ/to47zPQ8Kq7qhab9RjH6EjsMmAlDUgTtYaCoS0JzK02oeA473PMmwu9AIevMEWlTTyHVzq/UPpp4xIa8CM5F/HHQ7TZq1OkTxTj0ozsl4mHaTg4SSEWO9R/K65ZfyMbOQsxLNtDmkKaFvWssqoin87CPMby2Ls6bmWKEeeH24fJLy/YLaRFOaYifQ6MBU0NOenRmObwafeXXrJko6ygaybZkwjPuhosykxQRUH9h7mhyu2KuBlI2Z6D9DGr49dzZBI/k/V5J0RiNs+klg1f6mM452hNHN1ELJ9FIwTZAQywORZI/0IFgRQUsUJNkxP1d7qu4uaE1fp86Y3f5wF+hDucVTu1lmWF6nrxBxV/lzBuwjR8fBsXEwhjnJzws/VmgTFa2yveX934yJeKOYYWcWGuWteywIu1wOSuxE9ol1rjdvhz2gWIxo9rtE2FILgouCodvDMs8729ymabLOAHPJq69+9cRS7yXbYs60sbN2bcHjG48uGUPIX49Sg0Gvf0iIGqO68kcgMZULEN7FzdgcULpv/y7YPKubBhubHlPmo80O+aUm6ll9EFcO5X8/f8wKq","page_age":null},{"type":"web_search_result","title":"中午再次加强，下午逐渐减弱！这场雨预计傍晚基本结束！紧接着，还有雨","url":"https://peking.bjd.com.cn/content/s6a23d6b5e4b03fa51a7f6a0d.html","encrypted_content":"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","page_age":null},{"type":"web_search_result","title":"北京全市普降中雨，预计降雨18时前后结束","url":"https://www.sohu.com/a/1033088576_255783?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334&spm=smpc.channel_248.block3_308_NDdFbm_1_fd.8.1780736851114K5IScNk_324","encrypted_content":"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","page_age":null},{"type":"web_search_result","title":"北京天气预报,北京7天天气预报,北京15天天气预报,北京天气查询","url":"https://www.weather.com.cn/weather/101010100.shtml","encrypted_content":"jHigPBFO+zJQAsa5fro6/EcCTD2zXIjMxMv6zUrM/HUw0mzN/9Hzpa1qkvjEb78Es9OG/wu2uQJI5zsarBjpLK4mQrxdWIK+jJ8c8kbrTE7aPdqNa8VsYRxsacK+ppZcYDJg/g/DknQL1bFCGcWBSGauUwn6TEqsgU7GiA==","page_age":null},{"type":"web_search_result","title":"北京后半夜到明天有小到中雨，气温大幅下降","url":"https://news.bjd.com.cn/2026/06/05/11787491.shtml","encrypted_content":"jHJ1mqL7yICT5k1TLLS6dh+ua32anNc01SqlqW1sqW32FcqvisPnQoolQ+zTVr1i+/WFyj7rygE+ZkYmcbg7POsVz3/uhS8l5e/1XbaaL3HTKvxUdtUdtKsW10YFcOzqgQrkougPudGA+fObyOZCUCQXhLc+mjWGDnoDUx5RRQyypkyYdqd/eOWMsg8/QFyDpPrVWRL01yNkxQ7g2xmUWa4QRCOeK9U/o82+WFYPMvnXu9VvOnu8/6ChrRb+vArx+q2t61v5WvgOkk9ne8SbwHb0JUc+zz1OfeyuAzttodgVvESh3HEw3aZyu4cCnzbpzbjQveBetc8oYZgfuo+g84dxOhbqb6VX++Ou/eGSv7vZH1VB3zdgx05eyEayTY6kesqDWfPL4Hq5+2A0SEDwgLtezVetoZJC4JWN5ZJ9hewWuv8eacFFbg5NQDu8cS813H6HqWq5+tt98XwA2ecwgT73cKA2HfW0Yyg8/ZMLjjWb9FeNkfkdU05O8F9HsAo2y9Ykn57yALiWhPU87xi1LkCzRX2lrsV8ON8u5m2Trw44g12/MA49E9mcFe8ZZs0MXVdT2XYcRfKA3FbhemhUYM6m3xFUQ2MtpLSTcE+sDm8TdD7D0bzecX/pJDIDWxA2IRkMjPdez5GxQnufPwnE+ZGhZgcHJMrTDyOG0DGCxensJ5Le6TQtG9MzwCrfGNjXHv4z4z8nJGHpZtrqKxgX2EDH7+AlypY5safVZqK2atKDPntp7h1mQaMX9yiXCCoY7MPVQJh/Jss4vCddGT1hOWCOdjCvkUyk7DFhWKkz7hf6czHJdJOONxC2J3ISwPWssDJMNctChvDxOjyc+R0XGwU3MXEgJlzQ5YE3u7Fcj0FR04uHi0YSf1EyObKKJ8iK02kLNwHX+8M8wYFdyYvGub5B/jgyGUAaIx5CcUq70HTgcGBQmXPmxmjkxNfiAJGaH7hJlPBlFu9eSMDWR+F0gxAYjF0G8eo2iu/DntxnuBaNq6c6nosP+hZfbFoyLb+wYw==","page_age":null},{"type":"web_search_result","title":"蓝天预报综合天气现象、能见度、空气质量等因子，预测未来一周的天空状况。","url":"https://www.weather.com.cn/weather1d/101010200.shtml","encrypted_content":"OiyIRc0CjULWMVc4uOLksgOlc/3Sdb1XPXwh8HG3S24HGiq/tMqSGCAh1lnEE/rGty0MplKGwjw/mao4eeaUbjCUeV8wcDslmgKTgZBTvOsOYxP9nVRHt/FyNKGcI6nwXujpKsQ2wKtDf0Y+i7lND5wkxW0/xQEBcEBEno2gIA+X+ZYqipQOtJBVK1PdsqItivMbJLsznIZvo9XOuYSnTgzfQx1FlI3tuND8e5/PWeL+IHfExdqeWh59sSlLL7OaWPa8rLeou3zGFtCBBAzApjefZLsIkqGo5NIOKOeb7U+yQ6DnEqxNH+ehx0giIJPTIoiJ8nUc9ko8egD9wrwv3Zbsgb0VfxjnyZ7lMRUOCYGnWRSrR5PbPBCPk/ULosx4PjoJ3DvBOu5x8WSHvWZZs6Y1dZhxRBj6/xIrclyMVJ+ocNo6fKdeAJXDQR3XMnqqTqEzGvey96JB2JctUbk+Ux0byEIZbvqpAlJhBJzIjQdYKJpL8PUa5VkeIOueXz2L1NpqogAaIMuo8Kfu1c+QhweKjI5UUw1cvzdQhkAI6/tYNwudFvV/Bn5/QfQBD05tknm10saGEbbYcNyd83n9vatTqVjotM0zASKcqqpkCyMJcr+S841lZFn1CsPD2kT/p3FLIOuktHwBSHYnJai//1FVWObswUhC0grskFK+GVb1VrdEu3zD2VMDQ/S5luHpFmkZjiRlpX+DEclTNEqHPf3e60J9IPSDyRisCPHkvEcy2bffQhMguLcReRpkK+JauA3ommvoeTvN0HkWTxyQQ0XEIyTT86SP9XHoYyid761n5Bj3kVSeCCh5pMQLRvUKWMy4BWDO9OdNhg/rlv4AMrNLlagf2i2dEbDHiORgLG0AlVzk67cm2dgZheAvTa82yRKFZXc5lgXIRHrO8DCyYKoPf9vYn/8vQAd3pqcuNGFtxvD+zatiZ5jw5VqrIcoi5tAOzjgtgOn2SerOw8cYQctSPCuw7Ng0zZjpiWJ+1rz41UtP2btw+Szph7f+gdRtrPrT5T6CdoCvcUNzBqCiWxn5XBzkZbzIuE8NdG/OsdWumwYoV6zAbz1wqLmkOZ6+KWS7gyNHrzTc4P7apAGwVDydO4dshyVJTYq6cHXrO4kB2wzbAEhcm64sK6AqMofnZoUpRa2ulcoVmWZPIG3bTdVrOhX2pCK76RKGOYOeXkYsuV427izWf1bwDS+dVaN0HdtUAkWNwmHvBbWuEi4LF8RZvObg2coaHGaBJlhprmXAYj9OApmjHo4T0w2CsqTD3tPxTRd34YbhRhIMPL8mZ5u5r9BgCeovF5VI5gmGq+Wt9MraOa0PRJNsDWyB/N0TNc2StVS6CCkukGUKIGlBI44bCMaEat1NnCSH6nKlCB+5WExp3g4+ej8zeWe3FcdTEAYDMUNZEvjaFMnKTa7RuAVGKdGZ41jXcBS1pXKWSzwO8Hu4qQdVCeJEAByoq2iWCduzob4mysotgxv7dm2U8LyhnmQOaYuUmTIsgKR+fFsUSe9m6jNyvb6U/+ZnhqkZxKTp8O4rzqXSoSKgcN1Rie1ZLhzg9rX/MOCnFRGv/8Ku7BDR2JOopAqmy3lrW9n9TMS1FCn/m98Rg8dSjmbKiM8X1sUE8y9vvhMN2R6PsI2IdNM0+s1+tMzJ9Hvqcf0mGx78H/Gp7/cBeEKBBDlyKuC3UwWcADTs3Bvqeh0iEc/AWbO4/45Fmsk3jhObEUYqgOgexakPRi5Qxig=","page_age":null},{"type":"web_search_result","title":"雨还在下，降雨预计持续到傍晚！今年以来北京全市累计降水量比常年同期多六成_北京时间","url":"https://item.btime.com/41gq9eqtoao8q5pme5q7l2lruik","encrypted_content":"6z+AZB5EuRpWulv0QTXJpn8vVGDUoippmGHjr9wBEaBMYQel6gH2+2yBGcXZ4u1TH/JWA/YNkEsqRQ3hYBi6RfDpbMc4nj+AKjqIO06BEkOCnQsCsUUvR9GntydX+vOUnPG0ID+V7pN8WZhPaJP64f2CHxTfwaHDSxrnBSnb2ocXaObZeIJL7uqQLnZLlMb1QAPUVN9paZdYBhvBDoGP0Sl5lXn+nJ1wuPCgmbO1daPAAwVRIKH2HcFu3SCPjB9udCc4MbOGvXphqIOo178vPr0mH8otznURUzUAHAFNrO3xR7w+aOVqRxPZwVqxaNjc+mdg65yhmmaGFN7udGbavcM1RDb8j03BzouGqvbT2PcwSfzKYkcy6W0P0emTQsA1jvFNHdTZw+k5czZQZo+TJruhsS4HLttQ1htv8IkQkH5Sw+3wS6SKETrpc4R4pOUscWa5zKAr9omthQIjjQVaTI3SshBEprJ6uBdbx3RSFXbWvrAVL3AkLJUuMIV2TLSDmLkh8NqY0dUpk+aZvWswZrLs0z7CeG99Poywl7b5e158esgwme02FLXjcXqLqZ4guBQ8AbTkQnjnjXZpVVJjsmKKzxsEWNp6Ia/y9Miyq9sHY9vtYHJnGEh8pApD8/1eYPkU5v926JF339WTjkFcUK7NUV9es7l4UFgSFj7qSbJ4j6syPgjRwGGkM2Q+JTGya9XCMlC1b4nbOs0LLU5aiUAToxnTFtwbAwFU79P2gQT1SN2spKZD/kVNhMWVCnigAcS/PWyxZel3xhxUMF/Lk0TIKQd8ahRshYUDuSIymxkZiBM5o8wj3CQ2J1NJG5fUylPx/dnUttCA+E1ZKLYmVfjWkWs4Vxf2ZuRnVSZ6mEPrkcoLEAYCEhrw9A==","page_age":null},{"type":"web_search_result","title":"昨晚听到雨声了吗？北京的雨什么时候停？最新预报——","url":"https://m.gmw.cn/2026-06/06/content_1304485696.htm","encrypted_content":"W5V8S7JIqON6H4V0lJMA4y746uc8axGzWcWN4pSgDX2cThGYLPtSVVNbl/X2BLNKeSl1NAajPy4+VjgFOYz0AH3/i2PXCGL95PPD3JRXMnXC4ZYqmheOa5yryGpQWk0aIKtzz99FKtRdAnG38ov1OpRhi1zNrDfZiqI5CaLs5QaLbYcczqV09IJH4EtkpPOPqwTu19sehiMqYr+AYCO2SstwGSFvnJCNVn6lCF9lOo3R1I4vAkks2O2Jlw51x0YMCP0DHiy1Bj3G7zmc+cyRUlOkUpgzHb5v80QNppH+XsAgPJ4rrD+5YkFgZOv+Xnt/ikaqkhZT4/fRWu8BXZ10Q1/MU43s494UNufbhQP7N+FZojLeM8AD05vFtK4pOt9j0nrGLfg8KJmMZD6ZCSD9uN8eXyV1GgVMn8Lrty8KJfZyyj65PN9upTpMdk8iWqNYLy/t1lUPY+TEg8ZzVvKZDAiC733ntHCWubIc4phdu52fezYrUn8Xz1tAK5OPznlRADnMDxwlZOv+vd3qsK4QVtizZ2936/2yUAd+SAp49Gj49nojj88b7khRYI06c4k4cFYd4cdhL/blzSrNz0zecVoYjZp37PdT86w7VBGLfG+gfutvZySKTfKo3ImDF3ARe9WYmAPV8cTajG9L+E4sHq4yEUX00t+KmW5jx2mrtklewULAT81lICL/Y3okbzPGClqF2TT7rUgGtUKH9DVd5PvqQEi0Gs9AEjjs3PwQLpzv0+obZ1iOkKrxUm/Rr6IjinpOLlyXeHv5ctu4cznftjJpvbw3L3/d59yegt7Sa7cw/tUzHohsOAMyCgqgGewkzCFsk4grHBGX5GEIYPKOZQk2l9qP23Wipduv1pviAFlMnXhUJ355LhMMHn4bUd/I8lm6ErrZfvhbiMzQnCl8jcxUem372B7wMAbG/4hfE9Niq0nCEQf4mExuQ4zfazbShK++Qc7Vooyji0ZE4/zf6axYoWEA+3zhvF006T7OgJust3W0rR0NsC9g4fjcWwi6b2B4S0AxIKDA6G0zCPJ7GWlToaUEgmz3Jlc9x9SqwsEeSNzfJ22PNgncGPe1UazDhq0fIwJXJSgt2pq19+xCLm4zmZvj0BPCL+oT0IH6rp9zqdRs0Kiq5u+/wWcdR6vdGYxByrJbkO38","page_age":null},{"type":"web_search_result","title":"今天早晨至白天降雨持续 下午降雨逐渐减弱结束","url":"http://bj.weather.com.cn/sygdt/06/4665141_m.shtml","encrypted_content":"D98EEOTnn1Jw2K2ito7C9QTw7JawJRJMtxGNZePfNA79k7hsV3liyjrM+q78r+mbWKIs9OZ7hzBrP9oQMA5QRZU0CW4ZcwJ1vAsx7pNnbMJqIc3xhu2xR1ep0fA9+YxRFqVzdaaK50V7IKM+xwsO05O8TUQDw2TtY76xIxAAZLZ4FcLFuKczlrReZyI1GM4Va8YZS0A2D7VizVt72DGyVwDXal/FU+OYMrA/fHPQei74MoUfuXLsnBNnqhPL0a5ssevbQ7uCo5CQEXusG2H+KBdMaqZdW2GnB8ciKp/aJqRkAqEfiNXL131buhJCaPKPDG1k8X1rI8F6bNJH7jYoz96eVY+GJws+3bP3HAB4LyuHHMNVO21toTzEF81f8nJ7mnB38yLq54/xoKSabR/mn93o4P2s7HgtuDhrXuGvdCDbJ/RSwC9955if9SgLIXz8h3uOa+ftUruU4qFbT6fQ6WKKwHgrnPW3iKb/h9ng6WBsIhxYo/7VUcHUH5ZU9TGUjCCFaoJoOGYBivUr1mWnQmYmz21TPibbt3W+EcPXIwbmVcTb63r7y96zp9Vow0YLmspVJzcY76YwFa2UPyViqmjcCLW5WPglSO2zWeKpu9NVZJ/KC8ho5MxIa/b40RmM2/BrwzitIkVvTm7SzC1aAq2KBXyxHD13cDkUh0o085VEZz4Is8lpbojwKR+U11FFDqGZRXdXbEWX1xAnEp2IVVado0HxJBXRdQdbfA+zAwte2aQpH37D1CC3Uqr2F4cor8AMdnUMBfqPQ7ZB4fEmeZM2a7rDYEmqRK2ftw==","page_age":null}]}}
+
+event: content_block_stop
+data: {"type":"content_block_stop","index":2}
+
+event: content_block_start
+data: {"type":"content_block_start","index":3,"content_block":{"type":"thinking","thinking":"","signature":""}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":"The"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" search"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" results"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" show"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" weather"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" information"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" for"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" Beijing"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" on"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" June"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":"6"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":","}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":"202"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":"6"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":"."}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" Let"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" me"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" summarize"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" the"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" key"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":" findings"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"thinking_delta","thinking":"."}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":3,"delta":{"type":"signature_delta","signature":"f44d1775-d7cb-4e91-b66e-83ddee46146f"}}
+
+event: content_block_stop
+data: {"type":"content_block_stop","index":3}
+
+event: content_block_start
+data: {"type":"content_block_start","index":4,"content_block":{"type":"text","text":""}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"根据"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"搜索"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"结果显示"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"，"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"202"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"6"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"年"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"6"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"月"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"6"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"日"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"（"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"星期六"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"）"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"北京"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"天气"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"如下"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"：\n\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"##"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" 🌧"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"️"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"天气"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"概况"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"\n\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"|"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"项目"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" |"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"详情"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" |\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"|"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"------"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"|"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"------"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"|\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"|"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" **"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"天气"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" |"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"小"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"到"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"中"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"雨"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"转"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"多云"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"，"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"夜间"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"转"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"晴"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" |\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"|"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" **"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"最高"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"气温"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" |"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"20"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"℃"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" |\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"|"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" **"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"最低"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"气温"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" |"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"12"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"℃"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" |\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"|"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" **"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"风力"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" |"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"北"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"转"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"东风"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"2"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"~"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"3"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"级"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"，"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"夜间"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"1"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"~"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"2"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"级"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" |\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"|"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" **"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"日出"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"/"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"日落"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" |"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"04"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":":"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"46"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" /"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"19"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":":"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"40"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" |\n\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"##"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" 📝"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"详细"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"情况"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"\n\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"-"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" **"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"上午"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"至"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"白天"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"："}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"降雨"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"持续"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"，"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"房"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"山"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"、"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"门"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"头"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"沟"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"、"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"昌"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"平"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"、"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"大兴"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"等"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"区"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"降雨"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"相对"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"明显"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"，"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"最高"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"气温"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"仅"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"20"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"℃"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"左右"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"，"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"体"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"感"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"较"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"凉"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"。\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"-"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" **"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"下午"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"："}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"降雨"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"逐渐"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"减弱"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"，"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"预计"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"傍晚"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"18"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"时"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"前后"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"基本"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"结束"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"。\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"-"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" **"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"夜间"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"："}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"天气"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"转"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"晴"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"，"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"最低"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"气温"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"12"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"℃"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"左右"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"。\n\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"##"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" ⚠"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"️"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"温馨提示"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"\n\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"-"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"气温"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"较"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"前期"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"明显"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"下降"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"，"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"体"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"感"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"由"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"炎热"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"转为"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"阴"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"凉"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"，"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"外出"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"请"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"及时"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"增添"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"衣物"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"，"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"谨"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"防"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"感冒"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"。\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"-"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"路面"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"湿"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"滑"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"、"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"能"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"见"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"度"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"差"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"，"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"出行"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"注意"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"交通安全"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"，"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"随身"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"携带"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"雨"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"具"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"**"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"。\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"-"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":" "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"当天"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"北京"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"全市"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"普"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"降"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"中"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"雨"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"，"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"部分"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"区域"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"（"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"海淀"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"车道"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"沟"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"、"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"昌"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"平"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"东"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"小"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"口"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"等"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"）"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"甚至"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"达到"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"暴雨"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"级别"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":4,"delta":{"type":"text_delta","text":"。"}}
+
+event: content_block_stop
+data: {"type":"content_block_stop","index":4}
+
+event: message_delta
+data: {"type":"message_delta","delta":{"stop_reason":"end_turn","stop_sequence":null},"usage":{"input_tokens":3582,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"output_tokens":390,"service_tier":"standard","server_tool_use":{"web_search_requests":1}}}
+
+event: message_stop
+data: {"type":"message_stop"}
+
